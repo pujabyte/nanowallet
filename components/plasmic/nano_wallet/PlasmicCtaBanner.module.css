@@ -1,0 +1,224 @@
+.sectionBanner {
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-row-gap: 16px;
+  align-content: flex-start;
+  justify-items: center;
+  justify-self: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  grid-column-start: 1 !important;
+  grid-column-end: -1 !important;
+  grid-template-columns:
+    var(--plsmc-viewport-gap) 1fr minmax(0, var(--plsmc-wide-chunk))
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
+  padding: 96px 0px;
+}
+.sectionBanner > * {
+  grid-column: 4;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .sectionBanner > * {
+    grid-column: 4;
+  }
+}
+.freeBox__wrxLp {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 1280px;
+  grid-column-start: 1 !important;
+  grid-column-end: -1 !important;
+  padding: 0px 40px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__wrxLp {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+.freeBox__ahSp1 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+  height: 380px;
+  max-width: 100%;
+  background: linear-gradient(0deg, #d9e6f4 0%, #f5e9ff 100%) 0% 0% / 100% 100%
+    repeat;
+  min-width: 0;
+  flex-shrink: 0;
+  border-radius: 12px;
+  padding: 24px;
+}
+.freeBox___7Gf7U {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  padding: 8px;
+}
+.freeBox___7Gf7U > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.freeBox___7Gf7U > :global(.__wab_flex-container) > *,
+.freeBox___7Gf7U > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox___7Gf7U > :global(.__wab_flex-container) > picture > img,
+.freeBox___7Gf7U
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 24px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox___7Gf7U {
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox___7Gf7U > :global(.__wab_flex-container) {
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+  }
+}
+.h3 {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+.text {
+  position: relative;
+}
+.freeBox__zFHkp {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.freeBox__zFHkp > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  min-width: 0;
+  margin-left: calc(0px - 12px);
+  width: calc(100% + 12px);
+}
+.freeBox__zFHkp > :global(.__wab_flex-container) > *,
+.freeBox__zFHkp > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__zFHkp > :global(.__wab_flex-container) > picture > img,
+.freeBox__zFHkp
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 12px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__zFHkp {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__zFHkp > :global(.__wab_flex-container) {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: calc(0px - 12px);
+    width: calc(100% + 12px);
+    margin-top: calc(0px - 0px);
+    height: calc(100% + 0px);
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__zFHkp > :global(.__wab_flex-container) > *,
+  .freeBox__zFHkp > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .freeBox__zFHkp > :global(.__wab_flex-container) > picture > img,
+  .freeBox__zFHkp
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
+    margin-left: 12px;
+    margin-top: 0px;
+  }
+}
+.link___6O1Bm {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+.img__p0S1F {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 180px;
+  flex-shrink: 0;
+}
+.img__p0S1F > picture > img {
+  object-fit: cover;
+}
+.link__jVqKv {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+.img__qSxne {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 180px;
+  flex-shrink: 0;
+}
+.img__qSxne > picture > img {
+  object-fit: cover;
+}
+.freeBox__z8QbF {
+  display: block;
+  position: relative;
+  width: 21.75rem;
+  height: 26.5rem;
+  max-width: 100%;
+  background: url("/plasmic/nano_wallet/images/ctaImgpng.png") top 50% left 50% / contain no-repeat;
+  margin-top: -70px;
+  flex-shrink: 0;
+  padding: 8px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__z8QbF {
+    display: none;
+  }
+}
