@@ -147,9 +147,7 @@ function PlasmicCtaBanner__RenderFunc(props: {
                 sty.text
               )}
             >
-              {
-                "Empower your crypto journey with seamless transactions and instant swaps"
-              }
+              {"Empower Your Crypto Journey with Seamless Experience"}
             </div>
             <p.Stack
               as={"div"}
