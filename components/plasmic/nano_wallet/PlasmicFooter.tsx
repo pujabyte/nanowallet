@@ -222,6 +222,7 @@ function PlasmicFooter__RenderFunc(props: {
                   sty.link__w53L6
                 )}
                 component={Link}
+                href={"http://t.me/NanoByteCommunity"}
                 platform={"nextjs"}
               />
 
@@ -232,6 +233,7 @@ function PlasmicFooter__RenderFunc(props: {
                   sty.link__lfx4L
                 )}
                 component={Link}
+                href={"http://twitter.com/nanobyte_io"}
                 platform={"nextjs"}
               />
 
@@ -242,6 +244,7 @@ function PlasmicFooter__RenderFunc(props: {
                   sty.link__aVgjd
                 )}
                 component={Link}
+                href={"https://www.instagram.com/nanobyte.io/"}
                 platform={"nextjs"}
               />
 
@@ -252,6 +255,9 @@ function PlasmicFooter__RenderFunc(props: {
                   sty.link__lqAbP
                 )}
                 component={Link}
+                href={
+                  "https://www.youtube.com/channel/UC5Y5fD2FApTWMc0c2mlxzIg/featured"
+                }
                 platform={"nextjs"}
               />
             </p.Stack>
